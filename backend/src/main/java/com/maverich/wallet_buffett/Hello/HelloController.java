@@ -1,4 +1,4 @@
-package com.maverich.wallet_buffett.Home;
+package com.maverich.wallet_buffett.Hello;
 
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.stereotype.Component;
