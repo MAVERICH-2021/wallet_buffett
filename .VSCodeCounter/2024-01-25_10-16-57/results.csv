@@ -1,0 +1,20 @@
+"filename", "language", "Java Properties", "Java", "HTML", "comment", "blank", "total"
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntityCategory\EcoEntityCategory.java", "Java", 0, 23, 0, 0, 9, 32
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntityCategory\EcoEntityCategoryController.java", "Java", 0, 37, 0, 0, 10, 47
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntityCategory\EcoEntityCategoryRepository.java", "Java", 0, 6, 0, 0, 4, 10
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntityCategory\EcoEntityCategoryService.java", "Java", 0, 48, 0, 4, 14, 66
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntity\EcoEntity.java", "Java", 0, 24, 0, 19, 16, 59
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntity\EcoEntityController.java", "Java", 0, 31, 0, 32, 11, 74
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntity\EcoEntityRepository.java", "Java", 0, 6, 0, 0, 4, 10
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntity\EcoEntityService.java", "Java", 0, 22, 0, 12, 10, 44
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\Hello\HelloController.java", "Java", 0, 40, 0, 0, 7, 47
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\HistoryPrice\HistoryPrice.java", "Java", 0, 13, 0, 1, 4, 18
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\RootApplication.java", "Java", 0, 9, 0, 0, 5, 14
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\User\User.java", "Java", 0, 28, 0, 0, 12, 40
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\User\UserController.java", "Java", 0, 3, 0, 0, 3, 6
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\User\UserRepository.java", "Java", 0, 3, 0, 0, 3, 6
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\User\UserService.java", "Java", 0, 3, 0, 0, 3, 6
+"g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\UtilClass\DateRange.java", "Java", 0, 24, 0, 1, 6, 31
+"g:\my_project\wallet_buffett\backend\src\main\resources\application.properties", "Java Properties", 5, 0, 0, 1, 2, 8
+"g:\my_project\wallet_buffett\backend\src\main\resources\templates\hello.html", "HTML", 0, 0, 10, 0, 0, 10
+"Total", "-", 5, 320, 10, 70, 123, 528

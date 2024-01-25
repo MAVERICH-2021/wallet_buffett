@@ -1,0 +1,28 @@
+"filename", "language", "TypeScript", "TypeScript JSX", "CSS", "comment", "blank", "total"
+"g:\my_project\wallet_buffett\frontend\src\App.css", "CSS", 0, 0, 10, 1, 4, 15
+"g:\my_project\wallet_buffett\frontend\src\App.tsx", "TypeScript JSX", 0, 47, 0, 0, 7, 54
+"g:\my_project\wallet_buffett\frontend\src\AppRouter.tsx", "TypeScript JSX", 0, 12, 0, 1, 6, 19
+"g:\my_project\wallet_buffett\frontend\src\api\animalApi.ts", "TypeScript", 26, 0, 0, 0, 6, 32
+"g:\my_project\wallet_buffett\frontend\src\api\api.ts", "TypeScript", 21, 0, 0, 4, 4, 29
+"g:\my_project\wallet_buffett\frontend\src\assets\icons\icons.tsx", "TypeScript JSX", 0, 20, 0, 0, 9, 29
+"g:\my_project\wallet_buffett\frontend\src\components\AnimalExample.tsx", "TypeScript JSX", 0, 66, 0, 0, 12, 78
+"g:\my_project\wallet_buffett\frontend\src\components\NewsletterForm\NewsletterForm.tsx", "TypeScript JSX", 0, 0, 0, 0, 1, 1
+"g:\my_project\wallet_buffett\frontend\src\components\NewsletterForm\hooks\useNewsletterSignup.ts", "TypeScript", 0, 0, 0, 0, 1, 1
+"g:\my_project\wallet_buffett\frontend\src\components\common\button\Button.tsx", "TypeScript JSX", 0, 0, 0, 0, 1, 1
+"g:\my_project\wallet_buffett\frontend\src\components\common\form\FieldLabel.tsx", "TypeScript JSX", 0, 0, 0, 0, 1, 1
+"g:\my_project\wallet_buffett\frontend\src\components\common\form\TextField.tsx", "TypeScript JSX", 0, 0, 0, 0, 1, 1
+"g:\my_project\wallet_buffett\frontend\src\components\common\text\Headline.tsx", "TypeScript JSX", 0, 0, 0, 0, 1, 1
+"g:\my_project\wallet_buffett\frontend\src\components\common\text\Typography.tsx", "TypeScript JSX", 0, 0, 0, 0, 1, 1
+"g:\my_project\wallet_buffett\frontend\src\constants\appConstants.ts", "TypeScript", 8, 0, 0, 11, 5, 24
+"g:\my_project\wallet_buffett\frontend\src\helpers\withAsync.ts", "TypeScript", 23, 0, 0, 0, 1, 24
+"g:\my_project\wallet_buffett\frontend\src\hooks\useGreenBorder.ts", "TypeScript", 21, 0, 0, 0, 4, 25
+"g:\my_project\wallet_buffett\frontend\src\hooks\useMousePosition.ts", "TypeScript", 16, 0, 0, 2, 8, 26
+"g:\my_project\wallet_buffett\frontend\src\hooks\usePointerPosition.ts", "TypeScript", 37, 0, 0, 5, 8, 50
+"g:\my_project\wallet_buffett\frontend\src\hooks\useResponsiveDisplay.ts", "TypeScript", 16, 0, 0, 6, 2, 24
+"g:\my_project\wallet_buffett\frontend\src\languages\i18n.ts", "TypeScript", 24, 0, 0, 6, 3, 33
+"g:\my_project\wallet_buffett\frontend\src\main.tsx", "TypeScript JSX", 0, 12, 0, 0, 3, 15
+"g:\my_project\wallet_buffett\frontend\src\types\types.ts", "TypeScript", 1, 0, 0, 0, 0, 1
+"g:\my_project\wallet_buffett\frontend\src\views\Error\GeneralErrorPage.tsx", "TypeScript JSX", 0, 4, 0, 0, 2, 6
+"g:\my_project\wallet_buffett\frontend\src\views\Test\IntlTest\IntlTest.tsx", "TypeScript JSX", 0, 42, 0, 0, 4, 46
+"g:\my_project\wallet_buffett\frontend\src\views\Test\TestPage.tsx", "TypeScript JSX", 0, 9, 0, 0, 2, 11
+"Total", "-", 193, 212, 10, 36, 97, 548

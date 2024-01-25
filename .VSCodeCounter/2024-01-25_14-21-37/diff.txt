@@ -1,0 +1,115 @@
+Date : 2024-01-25 14:21:37
+Directory : g:\my_project\wallet_buffett\frontend\src
+Total : 44 files,  80 codes, -34 comments, -26 blanks, all 20 lines
+
+Languages
++-----------------+------------+------------+------------+------------+------------+
+| language        | files      | code       | comment    | blank      | total      |
++-----------------+------------+------------+------------+------------+------------+
+| TypeScript JSX  |         14 |        212 |          1 |         51 |        264 |
+| TypeScript      |         11 |        193 |         34 |         42 |        269 |
+| CSS             |          1 |         10 |          1 |          4 |         15 |
+| Java Properties |          1 |         -5 |         -1 |         -2 |         -8 |
+| HTML            |          1 |        -10 |          0 |          0 |        -10 |
+| Java            |         16 |       -320 |        -69 |       -121 |       -510 |
++-----------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                              | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                 |         44 |         80 |        -34 |        -26 |         20 |
+| . (Files)                                                                                                                         |          4 |         81 |          2 |         20 |        103 |
+| ..                                                                                                                                |         18 |       -335 |        -70 |       -123 |       -528 |
+| ..\..                                                                                                                             |         18 |       -335 |        -70 |       -123 |       -528 |
+| ..\..\backend                                                                                                                     |         18 |       -335 |        -70 |       -123 |       -528 |
+| ..\..\backend\src                                                                                                                 |         18 |       -335 |        -70 |       -123 |       -528 |
+| ..\..\backend\src\main                                                                                                            |         18 |       -335 |        -70 |       -123 |       -528 |
+| ..\..\backend\src\main\java                                                                                                       |         16 |       -320 |        -69 |       -121 |       -510 |
+| ..\..\backend\src\main\java\com                                                                                                   |         16 |       -320 |        -69 |       -121 |       -510 |
+| ..\..\backend\src\main\java\com\maverich                                                                                          |         16 |       -320 |        -69 |       -121 |       -510 |
+| ..\..\backend\src\main\java\com\maverich\wallet_buffett                                                                           |         16 |       -320 |        -69 |       -121 |       -510 |
+| ..\..\backend\src\main\java\com\maverich\wallet_buffett (Files)                                                                   |          1 |         -9 |          0 |         -5 |        -14 |
+| ..\..\backend\src\main\java\com\maverich\wallet_buffett\EcoEntity                                                                 |          4 |        -83 |        -63 |        -41 |       -187 |
+| ..\..\backend\src\main\java\com\maverich\wallet_buffett\EcoEntityCategory                                                         |          4 |       -114 |         -4 |        -37 |       -155 |
+| ..\..\backend\src\main\java\com\maverich\wallet_buffett\Hello                                                                     |          1 |        -40 |          0 |         -7 |        -47 |
+| ..\..\backend\src\main\java\com\maverich\wallet_buffett\HistoryPrice                                                              |          1 |        -13 |         -1 |         -4 |        -18 |
+| ..\..\backend\src\main\java\com\maverich\wallet_buffett\User                                                                      |          4 |        -37 |          0 |        -21 |        -58 |
+| ..\..\backend\src\main\java\com\maverich\wallet_buffett\UtilClass                                                                 |          1 |        -24 |         -1 |         -6 |        -31 |
+| ..\..\backend\src\main\resources                                                                                                  |          2 |        -15 |         -1 |         -2 |        -18 |
+| ..\..\backend\src\main\resources (Files)                                                                                          |          1 |         -5 |         -1 |         -2 |         -8 |
+| ..\..\backend\src\main\resources\templates                                                                                        |          1 |        -10 |          0 |          0 |        -10 |
+| api                                                                                                                               |          2 |         47 |          4 |         10 |         61 |
+| assets                                                                                                                            |          1 |         20 |          0 |          9 |         29 |
+| assets\icons                                                                                                                      |          1 |         20 |          0 |          9 |         29 |
+| components                                                                                                                        |          8 |         66 |          0 |         19 |         85 |
+| components (Files)                                                                                                                |          1 |         66 |          0 |         12 |         78 |
+| components\NewsletterForm                                                                                                         |          2 |          0 |          0 |          2 |          2 |
+| components\NewsletterForm (Files)                                                                                                 |          1 |          0 |          0 |          1 |          1 |
+| components\NewsletterForm\hooks                                                                                                   |          1 |          0 |          0 |          1 |          1 |
+| components\common                                                                                                                 |          5 |          0 |          0 |          5 |          5 |
+| components\common\button                                                                                                          |          1 |          0 |          0 |          1 |          1 |
+| components\common\form                                                                                                            |          2 |          0 |          0 |          2 |          2 |
+| components\common\text                                                                                                            |          2 |          0 |          0 |          2 |          2 |
+| constants                                                                                                                         |          1 |          8 |         11 |          5 |         24 |
+| helpers                                                                                                                           |          1 |         23 |          0 |          1 |         24 |
+| hooks                                                                                                                             |          4 |         90 |         13 |         22 |        125 |
+| languages                                                                                                                         |          1 |         24 |          6 |          3 |         33 |
+| types                                                                                                                             |          1 |          1 |          0 |          0 |          1 |
+| views                                                                                                                             |          3 |         55 |          0 |          8 |         63 |
+| views\Error                                                                                                                       |          1 |          4 |          0 |          2 |          6 |
+| views\Test                                                                                                                        |          2 |         51 |          0 |          6 |         57 |
+| views\Test (Files)                                                                                                                |          1 |          9 |          0 |          2 |         11 |
+| views\Test\IntlTest                                                                                                               |          1 |         42 |          0 |          4 |         46 |
++-----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
+| filename                                                                                                                          | language        | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntityCategory\EcoEntityCategory.java           | Java            |        -23 |          0 |         -9 |        -32 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntityCategory\EcoEntityCategoryController.java | Java            |        -37 |          0 |        -10 |        -47 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntityCategory\EcoEntityCategoryRepository.java | Java            |         -6 |          0 |         -4 |        -10 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntityCategory\EcoEntityCategoryService.java    | Java            |        -48 |         -4 |        -14 |        -66 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntity\EcoEntity.java                           | Java            |        -24 |        -19 |        -16 |        -59 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntity\EcoEntityController.java                 | Java            |        -31 |        -32 |        -11 |        -74 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntity\EcoEntityRepository.java                 | Java            |         -6 |          0 |         -4 |        -10 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\EcoEntity\EcoEntityService.java                    | Java            |        -22 |        -12 |        -10 |        -44 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\Hello\HelloController.java                         | Java            |        -40 |          0 |         -7 |        -47 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\HistoryPrice\HistoryPrice.java                     | Java            |        -13 |         -1 |         -4 |        -18 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\RootApplication.java                               | Java            |         -9 |          0 |         -5 |        -14 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\User\User.java                                     | Java            |        -28 |          0 |        -12 |        -40 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\User\UserController.java                           | Java            |         -3 |          0 |         -3 |         -6 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\User\UserRepository.java                           | Java            |         -3 |          0 |         -3 |         -6 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\User\UserService.java                              | Java            |         -3 |          0 |         -3 |         -6 |
+| g:\my_project\wallet_buffett\backend\src\main\java\com\maverich\wallet_buffett\UtilClass\DateRange.java                           | Java            |        -24 |         -1 |         -6 |        -31 |
+| g:\my_project\wallet_buffett\backend\src\main\resources\application.properties                                                    | Java Properties |         -5 |         -1 |         -2 |         -8 |
+| g:\my_project\wallet_buffett\backend\src\main\resources\templates\hello.html                                                      | HTML            |        -10 |          0 |          0 |        -10 |
+| g:\my_project\wallet_buffett\frontend\src\App.css                                                                                 | CSS             |         10 |          1 |          4 |         15 |
+| g:\my_project\wallet_buffett\frontend\src\App.tsx                                                                                 | TypeScript JSX  |         47 |          0 |          7 |         54 |
+| g:\my_project\wallet_buffett\frontend\src\AppRouter.tsx                                                                           | TypeScript JSX  |         12 |          1 |          6 |         19 |
+| g:\my_project\wallet_buffett\frontend\src\api\animalApi.ts                                                                        | TypeScript      |         26 |          0 |          6 |         32 |
+| g:\my_project\wallet_buffett\frontend\src\api\api.ts                                                                              | TypeScript      |         21 |          4 |          4 |         29 |
+| g:\my_project\wallet_buffett\frontend\src\assets\icons\icons.tsx                                                                  | TypeScript JSX  |         20 |          0 |          9 |         29 |
+| g:\my_project\wallet_buffett\frontend\src\components\AnimalExample.tsx                                                            | TypeScript JSX  |         66 |          0 |         12 |         78 |
+| g:\my_project\wallet_buffett\frontend\src\components\NewsletterForm\NewsletterForm.tsx                                            | TypeScript JSX  |          0 |          0 |          1 |          1 |
+| g:\my_project\wallet_buffett\frontend\src\components\NewsletterForm\hooks\useNewsletterSignup.ts                                  | TypeScript      |          0 |          0 |          1 |          1 |
+| g:\my_project\wallet_buffett\frontend\src\components\common\button\Button.tsx                                                     | TypeScript JSX  |          0 |          0 |          1 |          1 |
+| g:\my_project\wallet_buffett\frontend\src\components\common\form\FieldLabel.tsx                                                   | TypeScript JSX  |          0 |          0 |          1 |          1 |
+| g:\my_project\wallet_buffett\frontend\src\components\common\form\TextField.tsx                                                    | TypeScript JSX  |          0 |          0 |          1 |          1 |
+| g:\my_project\wallet_buffett\frontend\src\components\common\text\Headline.tsx                                                     | TypeScript JSX  |          0 |          0 |          1 |          1 |
+| g:\my_project\wallet_buffett\frontend\src\components\common\text\Typography.tsx                                                   | TypeScript JSX  |          0 |          0 |          1 |          1 |
+| g:\my_project\wallet_buffett\frontend\src\constants\appConstants.ts                                                               | TypeScript      |          8 |         11 |          5 |         24 |
+| g:\my_project\wallet_buffett\frontend\src\helpers\withAsync.ts                                                                    | TypeScript      |         23 |          0 |          1 |         24 |
+| g:\my_project\wallet_buffett\frontend\src\hooks\useGreenBorder.ts                                                                 | TypeScript      |         21 |          0 |          4 |         25 |
+| g:\my_project\wallet_buffett\frontend\src\hooks\useMousePosition.ts                                                               | TypeScript      |         16 |          2 |          8 |         26 |
+| g:\my_project\wallet_buffett\frontend\src\hooks\usePointerPosition.ts                                                             | TypeScript      |         37 |          5 |          8 |         50 |
+| g:\my_project\wallet_buffett\frontend\src\hooks\useResponsiveDisplay.ts                                                           | TypeScript      |         16 |          6 |          2 |         24 |
+| g:\my_project\wallet_buffett\frontend\src\languages\i18n.ts                                                                       | TypeScript      |         24 |          6 |          3 |         33 |
+| g:\my_project\wallet_buffett\frontend\src\main.tsx                                                                                | TypeScript JSX  |         12 |          0 |          3 |         15 |
+| g:\my_project\wallet_buffett\frontend\src\types\types.ts                                                                          | TypeScript      |          1 |          0 |          0 |          1 |
+| g:\my_project\wallet_buffett\frontend\src\views\Error\GeneralErrorPage.tsx                                                        | TypeScript JSX  |          4 |          0 |          2 |          6 |
+| g:\my_project\wallet_buffett\frontend\src\views\Test\IntlTest\IntlTest.tsx                                                        | TypeScript JSX  |         42 |          0 |          4 |         46 |
+| g:\my_project\wallet_buffett\frontend\src\views\Test\TestPage.tsx                                                                 | TypeScript JSX  |          9 |          0 |          2 |         11 |
+| Total                                                                                                                             |                 |         80 |        -34 |        -26 |         20 |
++-----------------------------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
