@@ -1,7 +1,9 @@
-package com.maverich.wallet_buffett.UtilClass;
+package com.maverich.wallet_buffett.utils;
+/*
+Date Range formatter
+*/
 
 import lombok.Data;
-import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
