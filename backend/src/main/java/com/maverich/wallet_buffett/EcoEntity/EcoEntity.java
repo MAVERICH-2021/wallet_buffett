@@ -13,6 +13,7 @@ import java.util.List;
 @Data
 public class EcoEntity {
     @Id
+    @GeneratedValue(generator = "uuid")
     private String id;
 
     /**
@@ -20,9 +21,6 @@ public class EcoEntity {
      */
     private String createdDate;
 
-    /**
-     * 实体描述
-     */
     private String description;
 
 
@@ -35,7 +33,7 @@ public class EcoEntity {
     /**
      * "已转让" "持有" "未持有"
      */
-    private String status;
+    private Status status;
     /**
      * 实体价值 (和currency锚定)
      */
@@ -47,10 +45,25 @@ public class EcoEntity {
 
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "category_id") // This is the foreign key column in the Entity table.
-    private EcoEntityCategory category;
+    @JoinColumn(name = "ecoEntityCategory_id") // This is the foreign key column in the Entity table.
+    private EcoEntityCategory ecoEntityCategory;
 
 //    private String ecoEntityCategoryID;
+
+    private enum Status {
+        /**
+         * 已转让
+         */
+        TRANSFERRED,
+        /**
+         * 持有
+         */
+        HOLDING,
+        /**
+         * 未持有
+         */
+        NOT_HOLDING
+    }
 }
 
 
