@@ -11,4 +11,10 @@
   box-sizing: content-box;
 }
 
+.hide-scrollbar {
+  overflow-y: hidden; 
+  overflow-x: hidden; 
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
 

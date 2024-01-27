@@ -1,9 +1,9 @@
-import IntlTest from "./components/IntlTest";
+// import IntlTest from "./components/IntlTest";
 
 const TestPage = () => {
     return ( 
         <div>
-            <IntlTest/>
+            {/* <IntlTest/> */}
         </div>
      );
 }

@@ -3,7 +3,7 @@ import "./App.css";
 
 import useGreenBorder from "./hooks/useGreenBorder";
 import { Link } from "react-router-dom";
-import { AppRouter } from "./AppRouter";
+import { AppRouter } from "./router";
 import { IconArrow } from "./assets/icons/icons";
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
     setIsToolboxExpanded(!isToolboxExpanded);
   };
   return (
-    <div className="App">
+    // TODO: add hide scroll bar feature to the whole app
+    <div className="App hide-scrollbar h-screen w-screen">
       <div className="toolbox absolute right-4 top-4 flex">
         <div className="toolbox-handler" onClick={handleToolboxExpansion}>
           <div
@@ -27,10 +28,10 @@ function App() {
         </div>
         <div
           className="toolbox-content  flex justify-between space-x-2 "
-          style={{
-            width: isToolboxExpanded ? "100%" : "0",
-            visibility: isToolboxExpanded ? "visible" : "hidden",
-          }}
+          // style={{
+          //   width: isToolboxExpanded ? "100%" : "0",
+          //   visibility: isToolboxExpanded ? "visible" : "hidden",
+          // }}
         >
           <button
             className="  text-xs text-white bg-green-600 p-1 rounded"

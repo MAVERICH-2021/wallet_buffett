@@ -8,21 +8,36 @@ import { AiOutlineAim } from "react-icons/ai";
 import { MdSpeed } from "react-icons/md";
 import { FiFilePlus } from "react-icons/fi";
 import { LuFolderPlus } from "react-icons/lu";
+import { FaMoneyCheckDollar } from "react-icons/fa6";
+import { MdDashboard } from "react-icons/md";
+import { FaWarehouse } from "react-icons/fa6";
 
-export const IconTrashCan = () => <FaTrash />
+const IconMoney = () => <FaMoneyCheckDollar />;
+const IconTrashCan = () => <FaTrash />;
+const IconArrow = () => <IoIosArrowDown />;
+const IconDirSub = () => <MdSubdirectoryArrowRight />;
+const IconDartFocus = () => <AiOutlineAim />;
+const IconSpeedQuick = () => <MdSpeed />;
+const IconFileAdd = () => <FiFilePlus />;
+const IconFolderAdd = () => <LuFolderPlus />;
+const IconDot = () => <LuDot />;
+const IconAdd = () => <IoIosAdd />;
+const IconStar = () => <CiStar />;
+const IconDashboard = () => <MdDashboard />;
+const IconHouse = () => <FaWarehouse />;
 
-export const IconArrow = () => <IoIosArrowDown />
-
-export const IconDirSub = () => <MdSubdirectoryArrowRight />;
-
-export const IconDartFocus = () => <AiOutlineAim />;
-export const IconSpeedQuick = () => <MdSpeed />;
-
-export const IconFileAdd = () => <FiFilePlus />;
-export const IconFolderAdd = () => <LuFolderPlus />;
-
-export const IconDot = () => <LuDot />;
-
-export const IconAdd = () => <IoIosAdd />;
-
-export const IconStar = () => <CiStar />;
+export {
+  IconMoney,
+  IconTrashCan,
+  IconArrow,
+  IconDirSub,
+  IconDartFocus,
+  IconSpeedQuick,
+  IconFileAdd,
+  IconFolderAdd,
+  IconDot,
+  IconAdd,
+  IconStar,
+  IconDashboard,
+   IconHouse,
+};
