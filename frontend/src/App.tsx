@@ -5,6 +5,8 @@ import useGreenBorder from "./hooks/useGreenBorder";
 import { Link } from "react-router-dom";
 import { AppRouter } from "./router";
 import { IconArrow } from "./assets/icons/icons";
+import GlobalSpinnerContextProvider from "./contexts/GlobalSpinnerContext";
+import GlobalSpinnerExample from "./components/GlobalSpinner/GlobalSpinnerExample";
 
 function App() {
   const switchGreenBorder = useGreenBorder();
@@ -28,10 +30,10 @@ function App() {
         </div>
         <div
           className="toolbox-content  flex justify-between space-x-2 "
-          // style={{
-          //   width: isToolboxExpanded ? "100%" : "0",
-          //   visibility: isToolboxExpanded ? "visible" : "hidden",
-          // }}
+          style={{
+            // width: isToolboxExpanded ? "100%" : "0",
+            visibility: isToolboxExpanded ? "visible" : "hidden",
+          }}
         >
           <button
             className="  text-xs text-white bg-green-600 p-1 rounded"
@@ -43,6 +45,11 @@ function App() {
           <button className="  text-xs text-white bg-green-600 p-1 rounded">
             <Link to={"/test"}>Test Page</Link>
           </button>
+          <GlobalSpinnerContextProvider>
+            <div className="App mx-auto max-w-6xl text-center ">
+              <GlobalSpinnerExample />
+            </div>
+          </GlobalSpinnerContextProvider>
         </div>
       </div>
 

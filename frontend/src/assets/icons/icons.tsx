@@ -11,6 +11,8 @@ import { LuFolderPlus } from "react-icons/lu";
 import { FaMoneyCheckDollar } from "react-icons/fa6";
 import { MdDashboard } from "react-icons/md";
 import { FaWarehouse } from "react-icons/fa6";
+import { RiMoneyCnyCircleFill } from "react-icons/ri";
+import { IoIosArrowBack } from "react-icons/io";
 
 const IconMoney = () => <FaMoneyCheckDollar />;
 const IconTrashCan = () => <FaTrash />;
@@ -25,6 +27,8 @@ const IconAdd = () => <IoIosAdd />;
 const IconStar = () => <CiStar />;
 const IconDashboard = () => <MdDashboard />;
 const IconHouse = () => <FaWarehouse />;
+const IconRMB = () => <RiMoneyCnyCircleFill />;
+const IconBack = () => <IoIosArrowBack />;
 
 export {
   IconMoney,
@@ -39,5 +43,7 @@ export {
   IconAdd,
   IconStar,
   IconDashboard,
-   IconHouse,
+  IconHouse,
+  IconRMB,
+  IconBack,
 };

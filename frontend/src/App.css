@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: content-box;
+  /* @apply text-white; */
 }
 
 .hide-scrollbar {
@@ -16,5 +17,9 @@
   overflow-x: hidden; 
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+p {
+  /* @apply text-white; */
 }
 
