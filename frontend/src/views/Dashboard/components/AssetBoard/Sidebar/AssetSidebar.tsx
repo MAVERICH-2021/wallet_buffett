@@ -34,7 +34,7 @@ const AssetSidebar = () => {
       setChecked(tab as "Cash" | "Stock" | "Crypto" | "Metal");
       // console.log("3: ", tab);
     }
-  },[tab]);
+  }, [tab]);
   /* 
   useEffect(() => {
     console.log("1: ", tab);
@@ -46,7 +46,7 @@ const AssetSidebar = () => {
   }, [tab]); */
 
   return (
-    <div className=" flex flex-col grow-0 min-w-[280px] bg-secondary-content">
+    <div className=" flex flex-col grow-0 min-w-[280px] bg-primary-content bg-opacity-40">
       <div className="navigator join w-full flex justify-center  pt-4">
         <NavBtn
           label="Cash"
