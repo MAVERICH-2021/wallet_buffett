@@ -19,6 +19,17 @@
   -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
 
+.scrollbar::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* make scrollbar transparent */
+}
+
+/* make scrollbar transparent on Firefox, IE and Edge*/
+.scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 p {
   /* @apply text-white; */
 }

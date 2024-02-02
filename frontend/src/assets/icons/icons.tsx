@@ -17,6 +17,9 @@ import { RiBankCardFill } from "react-icons/ri";
 import { BsPiggyBankFill } from "react-icons/bs";
 import { IoIosNotifications } from "react-icons/io";
 import { FaChartBar } from "react-icons/fa";
+import { IoLogoUsd } from "react-icons/io";
+import { BiSolidUpArrow } from "react-icons/bi";
+import { BiSolidDownArrow } from "react-icons/bi";
 
 const IconMoney = () => <FaMoneyCheckDollar />;
 const IconTrashCan = () => <FaTrash />;
@@ -37,6 +40,9 @@ const IconBankCard = () => <RiBankCardFill />;
 const IconPiggyBank = () => <BsPiggyBankFill />;
 const IconNotification = () => <IoIosNotifications />;
 const IconMarket = () => <FaChartBar />;
+const IconUSD = () => <IoLogoUsd />;
+const IconUpArrow = () => <BiSolidUpArrow />;
+const IconDownArrow = () => <BiSolidDownArrow />;
 
 export {
   IconMoney,
@@ -58,4 +64,7 @@ export {
   IconPiggyBank,
   IconNotification,
   IconMarket,
+  IconUSD,
+  IconUpArrow,
+  IconDownArrow,
 };

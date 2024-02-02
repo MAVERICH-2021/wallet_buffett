@@ -1,12 +1,17 @@
-import { Routes, Route, Navigate } from "react-router";
+import { Routes, Route, Navigate, useRoutes } from "react-router";
 import TestPage from "@/views/Test/TestPage";
 import GeneralErrorPage from "@/errors/GeneralErrorPage";
 import Dashboard from "./views/Dashboard/Dashboard";
 import AssetBoard from "./views/Dashboard/components/AssetBoard/AssetBoard";
-import Overview from "./views/Dashboard/components/OverviewBoard/Overview";
 import EntityBoard from "./views/Dashboard/components/EntityBoard/EntityBoard";
 import PaymentBoard from "./views/Dashboard/components/PaymentBoard/PaymentBoard";
 import MarketBoard from "./views/Dashboard/components/MarketBoard/MarketBoard";
+import { OverviewBoard } from "./views/Dashboard/components/OverviewBoard/OverviewBoard";
+import { DashboardLayout } from "./views/dashboard-example/Layout";
+import { Suspense } from "react";
+//ignore this error
+
+import routes from '~react-pages'
 
 export const AppRouter = () => {
   return (
@@ -15,16 +20,18 @@ export const AppRouter = () => {
         path="/"
         element={<Navigate to="/dashboard/overview" replace={true} />}
       />
-
       <Route path="dashboard/" element={<Dashboard />}>
-        <Route path="overview" element={<Overview />} />
+        <Route path="overview" element={<OverviewBoard />} />
         <Route path="market/:tab?/:id?" element={<MarketBoard />} />
         <Route path="asset/:tab?/:id?" element={<AssetBoard />} />
         <Route path="payment" element={<PaymentBoard />} />
         <Route path="eco-entity" element={<EntityBoard />} />
       </Route>
       <Route path="/test" element={<TestPage />} />
-      <Route path="*" element={<GeneralErrorPage />} />
+      {/* <Route path="*" element={<GeneralErrorPage />} /> */}
+      <Route path="*" element={<DashboardLayout >
+        <Suspense fallback={<p>Loading...</p>}>{useRoutes(routes)}</Suspense>
+      </DashboardLayout>} />
     </Routes>
   );
 };
