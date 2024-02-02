@@ -9,7 +9,7 @@ const IconLinkButton = ({ icon, tooltip, path }: IconButtonProps) => {
   return (
     <Link
       to={path}
-      className="tooltip tooltip-right text-4xl  my-4"
+      className="tooltip tooltip-right text-2xl  my-4"
       data-tip={tooltip}
     >
       {icon}

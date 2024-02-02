@@ -15,6 +15,8 @@ import { RiMoneyCnyCircleFill } from "react-icons/ri";
 import { IoIosArrowBack } from "react-icons/io";
 import { RiBankCardFill } from "react-icons/ri";
 import { BsPiggyBankFill } from "react-icons/bs";
+import { IoIosNotifications } from "react-icons/io";
+import { FaChartBar } from "react-icons/fa";
 
 const IconMoney = () => <FaMoneyCheckDollar />;
 const IconTrashCan = () => <FaTrash />;
@@ -33,6 +35,8 @@ const IconRMB = () => <RiMoneyCnyCircleFill />;
 const IconBack = () => <IoIosArrowBack />;
 const IconBankCard = () => <RiBankCardFill />;
 const IconPiggyBank = () => <BsPiggyBankFill />;
+const IconNotification = () => <IoIosNotifications />;
+const IconMarket = () => <FaChartBar />;
 
 export {
   IconMoney,
@@ -52,4 +56,6 @@ export {
   IconBack,
   IconBankCard,
   IconPiggyBank,
+  IconNotification,
+  IconMarket,
 };

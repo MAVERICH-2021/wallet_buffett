@@ -1,11 +1,11 @@
-import { IconBack } from "@/assets/icons/icons";
+import { IconBack, IconNotification } from "@/assets/icons/icons";
 import { useResponsiveDisplay } from "@/hooks/useResponsiveDisplay";
 import { backToUpperPath } from "@/router";
 
 const Topbar = () => {
   const isMobile = useResponsiveDisplay();
   return (
-    <div className=" grow-0 min-h-[40px] bg-primary-content bg-opacity-80  flex flex-row justify-between"
+    <div className=" grow-0 min-h-[32px] bg-primary-content bg-opacity-80  flex flex-row justify-between"
     style={{
       // shadow: "0 0 10px 0 rgba(0, 0, 0, 0.2)",
     }}>
@@ -24,10 +24,10 @@ const Topbar = () => {
         </div>
       </div>
       <div className="indicator m-3 mr-8 ">
-        <span className="indicator-item badge badge-secondary badge-sm text-sm">
-          99+
+        <span className="indicator-item ">
+         <div className=" h-2 w-2 rounded-full bg-secondary"></div>
         </span>
-        <button className="btn btn-sm">inbox</button>
+        <button className="btn btn-xs text-lg"><IconNotification/></button>
       </div>
     </div>
   );

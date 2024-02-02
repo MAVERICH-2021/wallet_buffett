@@ -4,6 +4,7 @@ import {
   IconHouse,
   IconBankCard,
   IconPiggyBank,
+  IconMarket,
 } from "@/assets/icons/icons";
 import IconLinkButton from "@/components/common/button/IconLinkButtton";
 
@@ -17,6 +18,11 @@ const IconButtonList = () => {
         icon={<IconDashboard />}
         tooltip="Overview"
         path="/dashboard/overview"
+      />
+      <IconLinkButton
+        icon={<IconMarket />}
+        tooltip="Market"
+        path="/dashboard/market/rmb"
       />
       <IconLinkButton
         icon={<IconBankCard />}

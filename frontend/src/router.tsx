@@ -6,6 +6,7 @@ import AssetBoard from "./views/Dashboard/components/AssetBoard/AssetBoard";
 import Overview from "./views/Dashboard/components/OverviewBoard/Overview";
 import EntityBoard from "./views/Dashboard/components/EntityBoard/EntityBoard";
 import PaymentBoard from "./views/Dashboard/components/PaymentBoard/PaymentBoard";
+import MarketBoard from "./views/Dashboard/components/MarketBoard/MarketBoard";
 
 export const AppRouter = () => {
   return (
@@ -15,12 +16,11 @@ export const AppRouter = () => {
         element={<Navigate to="/dashboard/overview" replace={true} />}
       />
 
-      {/* <Route path="/project_manager/:id?" element={<ProjectManager />} /> */}
       <Route path="dashboard/" element={<Dashboard />}>
         <Route path="overview" element={<Overview />} />
+        <Route path="market/:tab?/:id?" element={<MarketBoard />} />
         <Route path="asset/:tab?/:id?" element={<AssetBoard />} />
         <Route path="payment" element={<PaymentBoard />} />
-
         <Route path="eco-entity" element={<EntityBoard />} />
       </Route>
       <Route path="/test" element={<TestPage />} />
