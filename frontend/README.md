@@ -28,3 +28,19 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+---
+
+### How to change ENV
+cmd
+set NODE_ENV=development
+npm start
+
+OR
+
+change script
+"scripts": {
+  "start": "NODE_ENV=development vite",
+  "build": "NODE_ENV=production vite build"
+}

@@ -1,9 +1,18 @@
+import { API_BASE_URL } from '@/env'
 import axios, { AxiosInstance, AxiosRequestConfig } from 'axios'
 // Default config for the axios instance
+
+
 const axiosParams = {
-  // Set different base URL based on the environment
+  headers: {
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': '*'
+
+    // For example, Authorization header: 'Authorization': 'Bearer yourTokenHere'
+  },
   baseURL:
-    process.env.NODE_ENV === 'development' ? 'http://localhost:8080' : '/',
+    API_BASE_URL
+    // process.env.NODE_ENV === 'development' ? 'http://localhost:8080' : '/',
 }
 
 // Create axios instance with default params

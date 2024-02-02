@@ -12,7 +12,6 @@ function App() {
   const switchGreenBorder = useGreenBorder();
   const [isToolboxExpanded, setIsToolboxExpanded] = useState(false);
 
-
   const handleToolboxExpansion = () => {
     setIsToolboxExpanded(!isToolboxExpanded);
   };
@@ -32,7 +31,9 @@ function App() {
         <div
           className="toolbox-content  flex justify-between space-x-2 "
           style={{
+            // color: "white",
             // width: isToolboxExpanded ? "100%" : "0",
+            // left: isToolboxExpanded ? "0" : "-100px",
             visibility: isToolboxExpanded ? "visible" : "hidden",
           }}
         >
