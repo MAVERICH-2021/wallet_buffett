@@ -1,4 +1,4 @@
-import ErrorPopup from '@/components/ErrorPopup/ErrorPopup'
+import ErrorPopup from '@/components/popups/ErrorPopup/ErrorPopup'
 import { contextFactory } from './helpers/contextFactory'
 import { useToggleState } from '@/hooks/useToggleState'
 type ErrorPopupValues = {

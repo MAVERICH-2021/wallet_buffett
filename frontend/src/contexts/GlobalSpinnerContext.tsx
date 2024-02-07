@@ -1,4 +1,4 @@
-import GlobalSpinner from "@/components/GlobalSpinner/GlobalSpinner";
+import GlobalSpinner from "@/components/popups/GlobalSpinner/GlobalSpinner";
 import { contextFactory } from "./helpers/contextFactory";
 import { useToggleState } from "@/hooks/useToggleState";
 type GlobalSpinnerValues = {

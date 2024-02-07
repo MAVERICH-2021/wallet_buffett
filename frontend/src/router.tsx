@@ -11,11 +11,13 @@ import { DashboardLayout } from "./views/dashboard-example/Layout";
 import { Suspense } from "react";
 //ignore this error
 
-import routes from '~react-pages'
+import routes from "~react-pages";
+import Calculator from "./views/Calculator/Calculator";
 
 export const AppRouter = () => {
   return (
     <Routes>
+      <Route path="/calculator" element={<Calculator />} />
       <Route
         path="/"
         element={<Navigate to="/dashboard/overview" replace={true} />}
@@ -29,9 +31,16 @@ export const AppRouter = () => {
       </Route>
       <Route path="/test" element={<TestPage />} />
       {/* <Route path="*" element={<GeneralErrorPage />} /> */}
-      <Route path="*" element={<DashboardLayout >
-        <Suspense fallback={<p>Loading...</p>}>{useRoutes(routes)}</Suspense>
-      </DashboardLayout>} />
+      <Route
+        path="*"
+        element={
+          <DashboardLayout>
+            <Suspense fallback={<p>Loading...</p>}>
+              {useRoutes(routes)}
+            </Suspense>
+          </DashboardLayout>
+        }
+      />
     </Routes>
   );
 };

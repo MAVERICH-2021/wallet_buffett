@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { AppRouter } from "./router";
 import { IconArrow } from "./assets/icons/icons";
 import GlobalSpinnerContextProvider from "./contexts/GlobalSpinnerContext";
-import GlobalSpinnerExample from "./components/GlobalSpinner/GlobalSpinnerExample";
+import GlobalSpinnerExample from "./components/popups/GlobalSpinner/GlobalSpinnerExample";
 
 function App() {
   const switchGreenBorder = useGreenBorder();
